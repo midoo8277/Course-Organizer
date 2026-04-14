@@ -94,7 +94,7 @@ footer{
 }
 @media (max-width: 768px) {
     
-    /* بنخلي الهيدر يرص المنيو واللوجو تحت بعض بدل جنب بعض */
+    
     nav {
         flex-direction: column;
     }
@@ -106,11 +106,17 @@ footer{
     }
     
     nav ul li {
-        margin: 5px 10px; /* بنقلل المسافات بين اللينكات شوية في الموبايل */
+        margin: 5px 10px; 
     }
 
-    /* تريكة للجدول: عشان لو مساحته كبرت ميبوظش الشاشة، بنخليه يعمل سكرول بالعرض من جوه المربع بتاعه */
+
     section {
         overflow-x: auto;
     }
+    .btn{
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    text-align: center;
+}
 }
